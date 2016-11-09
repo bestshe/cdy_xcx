@@ -1,28 +1,36 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/trade/index",
+    "pages/tasks/index",
+    "pages/manage/home"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Demo",
-    "backgroundColor": "#eeeeee",
-    "backgroundTextStyle": "light"
+    "navigationBarBackgroundColor": "#1bc0fd",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "程大业",
+    "backgroundColor": "#f9f9f9",
+    "backgroundTextStyle": "dark"
   },
   "tabBar": {
-    "color": "#515151",
-    "selectedColor": "#3cc51f",
+    "color": "#6b6b6b",
+    "selectedColor": "#1bc0fd",
     "borderStyle": "white",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#fbf9fe",
     "list": [{
-      "pagePath": "pages/index/index",
-      "text": "消息"
+      "pagePath": "pages/trade/index",
+      "iconPath": "image/icon_trade.png",
+      "selectedIconPath": "image/icon_trade_c.png",
+      "text": "工程交易"
     }, {
-      "pagePath": "pages/works/work",
-      "text": "工作台"
+      "pagePath": "pages/tasks/index",
+      "iconPath": "image/icon_tasks.png",
+      "selectedIconPath": "image/icon_tasks_c.png",
+      "text": "任务管理"
     }, {
-      "pagePath": "pages/me/me",
-      "text": "我的"
+      "pagePath": "pages/manage/home",
+      "iconPath": "image/icon_manage.png",
+      "selectedIconPath": "image/icon_manage_c.png",
+      "text": "管理中心"
     }]
   },
   "networkTimeout": {
