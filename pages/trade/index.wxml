@@ -1,12 +1,23 @@
 <!--index.wxml-->
 <view class="page">
   <view class="page-header">
-    
-    <view class="nav">
-      <view class="">近日可投标工程</view>
-      <view class="">中标公告</view>
-      <view class="">全部工程</view>
-    </view>
+    <block wx:for-items="{{nav}}" wx:for-item="item">
+        <view class="item">
+            <view>
+                <view id="{{item.id}}" class="page-header-text">{{item.name}}</view>
+                <view class="page-header-line"></view>
+            </view>         
+            <view class="list">
+                <block wx:for-items="{{item.pages}}" wx:for-item="page">
+                    <navigator url="/{{page.url}}" class="list-item">
+                        <image mode="aspectFill" src="{{src}}"></image>
+                        <text class="title">{{page.name}}</text>
+                    </navigator>
+                </block>
+            </view>
+        </view>
+    </block>
+
 
   </view>
 

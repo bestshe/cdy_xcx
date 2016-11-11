@@ -30,7 +30,7 @@
       "pagePath": "pages/manage/home",
       "iconPath": "image/icon_manage.png",
       "selectedIconPath": "image/icon_manage_c.png",
-      "text": "管理中心"
+      "text": "我的"
     }]
   },
   "networkTimeout": {

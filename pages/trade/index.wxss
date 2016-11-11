@@ -1,4 +1,36 @@
 /**index.wxss**/
+
+.page-header-text {
+  padding:50rpx 0 20rpx;
+  text-align: center;
+}
+.page-header-line {
+  width: 150rpx;
+  height: 1px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+.list{
+  margin:20rpx 0 50rpx;
+  display: inline;
+  overflow:hidden;
+}
+.list .list-item {
+  width: 200rpx;
+  height: 200rpx;
+  float: left;
+  display:block;
+}
+.list .list-item image{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #ccc;
+}
+.list .title{
+  margin: 15rpx 0;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;

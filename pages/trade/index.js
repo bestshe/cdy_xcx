@@ -18,18 +18,18 @@ Page({
             url:'win'
           }]
       },{
-          id: 'win_public',
-          name: '中标公告',
+          id: 'tools',
+          name: '工具',
           open: false,
           pages: [{
-            name: '可投标工程',
-            url:'recently'
+            name: '企业信息查询',
+            url:'company_query'
           },{
-            name: '投过工程',
-            url:'past'
+            name: '其它中标公告',
+            url:'win_public'
           },{
-            name: '中标工程',
-            url:'win'
+            name: '业务管理',
+            url:'operation_control'
           }]
       }
     ]
